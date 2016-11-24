@@ -13,5 +13,6 @@ It might also be, that the whole approach is flawed. What the script does is bas
 
 The main script is sigspoof.sh, and it has the following dependencies, which are not included in the code tree:
 * [smali](https://github.com/JesusFreke/smali) for disassembling `boot-framework.oat` and assembling it again (not natively compiled). Use the latest (beta) version.
+* [fillinsig.smali](https://github.com/ale5000-git/tingle/tree/master/patches) from tingle
 * [super-bootimg](https://github.com/mikeperry-tor/super-bootimg)
 * various stuff from mission-improbable's [extra](https://github.com/mikeperry-tor/mission-improbable/tree/master/extras) folder (some of them are blobs)
